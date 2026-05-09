@@ -1,5 +1,3 @@
-# smart-light-dashboard
-
 # Smart Light Dashboard
 
 ## Group Information
