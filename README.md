@@ -5,9 +5,9 @@
 | | |
 |---|---|
 | Group name | |
-| Member 1 | Name Praphasiri Prasad 67070504007 |
-| Member 2 | Name Waratchaya Thongkham 67070504012 |
-| Member 3 | Name Nicole Gabrielle Edios Paracale 67070504032 |
+| Member 1 | Praphasiri Prasad 67070504007 |
+| Member 2 | Waratchaya Thongkham 67070504012 |
+| Member 3 | Nicole Gabrielle Edios Paracale 67070504032 |
 | Course | INC272: Web-Based IoT Applications (2026) |
 
 * * *
