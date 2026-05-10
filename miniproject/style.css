@@ -1,0 +1,123 @@
+body {
+  background: #714764;
+  color: #e5e7eb;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* ===== TITLE ===== */
+h1 {
+  color: #93c5fd;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+/* ===== STATUS ===== */
+.badge {
+  color: #86efac;
+  font-size: 14px;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: #1e293b;
+  border-radius: 18px;               /* ✅ มนขึ้น */
+  padding: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* ✅ นุ่ม */
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);      /* ✅ ลอยๆ */
+}
+
+/* ===== TEXT ===== */
+#adcValue,
+#pwmDisplay {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fcd34d;                   /* ✅ น่ารัก warm */
+}
+
+/* ===== PROGRESS BAR ===== */
+.bar {
+  height: 8px;
+  background: #334155;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    #93c5fd,
+    #f9a8d4                  /* ✅ ฟ้า → ชมพู */
+  );
+}
+
+/* ===== STATUS COLORS ===== */
+.low { color: #fde047; }
+.normal { color: #7dd3fc; }
+.high { color: #fca5a5; }
+
+/* ===== BUTTON ===== */
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: none;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #60a5fa;
+  transform: scale(1.05);          /* ✅ เด้งน่ารัก */
+}
+
+/* ===== SLIDER ===== */
+input[type="range"] {
+  width: 100%;
+  accent-color: #f9a8d4;           /* ✅ ชมพูพาสเทล */
+}
+
+/* ===== LIGHT ===== */
+.light-on, .light-off {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.light-on {
+  background: #fde047;
+  box-shadow: 0 0 25px #fde047;   /* ✅ glow นุ่ม */
+}
+
+.light-off {
+  background: #334155;
+}
+
+/* ===== CHART ===== */
+.chart-card {
+  height: 280px;
+  margin: 15px;
+  border-radius: 18px;
+  background: #1e293b;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
