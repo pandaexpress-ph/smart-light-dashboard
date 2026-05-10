@@ -86,4 +86,4 @@ project-folder/
 ## Screenshots
 
 Add one or two screenshots of the running application.
-`![Dashboard screenshot](path/to/screenshot.png)`
+![Dashboard screenshot]{B1CC3487-08A7-4E6C-95C5-CA023BEA5626}.png
