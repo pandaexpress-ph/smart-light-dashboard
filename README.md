@@ -84,4 +84,4 @@ project-folder/
 * * *
 
 ## Screenshots
-![Dashboard screenshot](B1CC3487-08A7-4E6C-95C5-CA023BEA5626.png)
+![Dashboard screenshot]({B1CC3487-08A7-4E6C-95C5-CA023BEA5626}.png)
