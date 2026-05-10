@@ -10,6 +10,7 @@
 | Member 3 | Nicole Gabrielle Edios Paracale 67070504032 |
 | Course | INC272: Web-Based IoT Applications (2026) |
 
+
 * * *
 
 ## Project Goal
@@ -34,8 +35,8 @@ This application is a Smart Light Dashboard that monitors ambient light levels v
 | Element | What It Shows | Simulator Feature |
 |---------|--------------|-------------------|
 | ADC Value display | Current ADC reading as a percentage (0–100%) | ADC ch.0 |
-| ADC Status label | Threshold state — LOW / NORMAL| / HIGH | ADC ch.0 |
-| Progress bar | Visual fill representing ADC level  ADC ch.0 |
+| ADC Status label | Threshold state — LOW / NORMAL / HIGH | ADC ch.0 |
+| Progress bar | Visual fill representing ADC level | ADC ch.0 |
 | PWM Output display | Current PWM duty cycle as a percentage | PWM |
 | Light bulb indicator | Glowing circle that brightens/dims with PWM output | PWM |
 | Real-time line chart | Scrolling graph of ADC (%) and PWM (%) over time | ADC ch.0 / PWM |
@@ -78,11 +79,11 @@ project-folder/
 ## Known Limitations
 
 - Only ADC channel 0 is read; the remaining three ADC channels are unused.
-- The AUTO mode toggle button label reads "AUTO OFF" even when auto mode is active, which may be confusing — the button does not currently switch between modes; it is a display-only label.
 - PWM commands are simulated client-side with a smoothing animation and are not explicitly sent back to the hardware server via WebSocket.
 
 * * *
 
 ## Screenshots
 
-![Dashboard screenshot]({E3E066C7-BA86-459E-AC4A-A4CE6DB62E15}.png)
+Add one or two screenshots of the running application.
+`![Dashboard screenshot](path/to/screenshot.png)`
