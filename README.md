@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Group name | |
+| The Panda Express | |
 | Member 1 | Praphasiri Prasad 67070504007 |
 | Member 2 | Waratchaya Thongkham 67070504012 |
 | Member 3 | Nicole Gabrielle Edios Paracale 67070504032 |
